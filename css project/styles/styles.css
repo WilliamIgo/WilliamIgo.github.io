@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/geometric-leaves.png);
+
+}
+
+.textcontent{
+    padding-top: 60px;
+    line-height:2em;
+    font-weight: 800;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    font-size: larger;
+}
+
+.navigationbar li a:hover:not(.active) {
+    background-color: rgb(10, 10, 10);
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+.navigationbar{
+    list-style-type: none;
+    font-size:larger;
+    font-weight:500;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.navigationbar li {
+    float: left;
+}
+
+.navigationbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+}
+
